@@ -1,0 +1,55 @@
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(78, 17, 107);
+}
+
+.main {
+    display: flex;
+}
+
+#list {
+    flex:5;
+    background-color: white;
+    min-height: calc(100vh - 89px);
+}
+
+#form {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 6px;
+    min-height: calc(100vh - 89px);
+}
+
+#form .control {
+    margin-bottom: 12px;
+}
+
+#form .control label {
+    color: rgb(75, 66, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iImportant {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#form .control .fas {
+    color: rgb(162, 47,180);
+}
+
+#form .control .far {
+    color: rgb(135, 135, 135);
+}
+
+#form h3 {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(75, 66, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
